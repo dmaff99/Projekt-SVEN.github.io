@@ -1,0 +1,40 @@
+/* Grunddesign */
+body {
+    background-color: limegreen;
+    font-size: larger;
+}
+
+header {
+    margin: 1%;
+}
+
+header > span {
+    font-size: 100px;
+    vertical-align: bottom;
+    text-decoration: overline;
+}
+
+header > img {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+article {
+    background-color: floralwhite;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+
+footer {
+    background-color: limegreen;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+/* Homeseite */
+
+.videocontainer {
+    text-align: center;
+}

@@ -1,0 +1,4 @@
+-   stockyOffset vom Article wird bei Rezize nicht aktualisiert
+    sticky_article margin-top auch nicht
+
+-   

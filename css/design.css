@@ -19,6 +19,16 @@ header > img {
     margin-bottom: 15px;
 }
 
+nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.sticky + nav {
+    margin-top: 102px;
+}
+
 article {
     background-color: floralwhite;
     margin-left: 1%;
@@ -30,7 +40,6 @@ footer {
     background-color: limegreen;
     width: 100%;
     bottom: 0;
-    position: fixed;
 }
 
 /* Homeseite */

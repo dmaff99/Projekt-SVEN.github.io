@@ -1,6 +1,7 @@
 $(function(){
     //Load Templates
     $( "header" ).load("/templates/header.html");
+    $( "footer" ).load("/templates/footer.html");
 
     //Nav fix on Top
     var sticky = null;

@@ -1,6 +1,6 @@
 /* Quelle: https://www.webcodegeeks.com/html5/html5-navigation-bar-example/ */
 nav {
-    background-color: rgb(28, 68, 30);
+    background-color: #26a65b; /*Eucalyptus*/
     border: 1px solid rgb(0, 0, 0);
     display: block;
     margin: 0;
@@ -19,7 +19,7 @@ nav ul li {
 }
 
 nav > ul > li > a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: block;
     line-height: 2em;
     padding: 0.5em 2em;
@@ -30,7 +30,7 @@ nav > ul > li > a {
 nav li > ul{
     display : none;
     margin-top:1px;
-    background-color: rgb(39, 139, 44);
+    background-color: #26a65b; /*Eucalyptus*/
 
 }
 
@@ -55,15 +55,12 @@ nav li:hover > a {
 }
 
 nav li:hover > ul{
-    position:absolute;
+    position: fixed;
     display : block;
 }
-nav li > ul > li ul  {
-    display: none;
-    background-color: rgb(39, 139, 44);
-}
+
 nav li > ul > li:hover > ul  {
-    position:absolute;
+    position: absolute;
     display : block;
     margin-left:100%;
     margin-top:-3em;

@@ -1,7 +1,8 @@
 /* Grunddesign */
 body {
-    background-color: limegreen;
+    background-color: #26de81; /*Reptile Green*/
     font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -27,8 +28,13 @@ article {
     padding: 16px;
 }
 
+.article_mitte {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 footer {
-    background-color: limegreen;
     width: 100%;
     bottom: 0;
 }

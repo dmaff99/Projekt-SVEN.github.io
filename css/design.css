@@ -59,3 +59,31 @@ footer {
 .videocontainer {
     text-align: center;
 }
+
+/* Team */
+
+.personInfoBox {
+    border-radius: 15%;
+    border-color: darkgreen;
+    margin: 2%;
+}
+
+.personInfoBox > img {
+    border-radius: 50%;
+    float: left;
+}
+
+.personInfoText {
+    display: flow-root;
+}
+
+.personName {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.personMail {
+    text-decoration: none;
+    color: unset;
+    font-weight: 600;
+}

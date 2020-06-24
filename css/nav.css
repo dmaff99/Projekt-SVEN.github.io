@@ -1,10 +1,11 @@
 /* Quelle: https://www.webcodegeeks.com/html5/html5-navigation-bar-example/ */
 nav {
     background-color: #26a65b; /*Eucalyptus*/
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #0E0E0E;
     display: block;
     margin: 0;
     overflow: hidden;
+    font-weight: 700;
 }
 nav ul{
     margin: 0;
@@ -19,7 +20,7 @@ nav ul li {
 }
 
 nav > ul > li > a {
-    color: rgb(0, 0, 0);
+    color: #0E0E0E;
     display: block;
     line-height: 2em;
     padding: 0.5em 2em;
@@ -39,7 +40,7 @@ nav li > ul li{
 }
 
 nav  li > ul li a {
-    color: rgb(0, 0, 0);
+    color: #0E0E0E;
     display: block;
     line-height: 2em;
     padding: 0.5em 2em;
@@ -47,7 +48,7 @@ nav  li > ul li a {
 }
 
 nav li:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: #0E0E0E;
 }
 
 nav li:hover > a {

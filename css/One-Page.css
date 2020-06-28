@@ -1,0 +1,33 @@
+body {
+    background-image: url("../img/green.jpg");
+    background-size: cover;
+}
+
+article {
+    background-color: #62f38891;
+}
+
+.article_mitte {
+    margin-top: 12%;
+}
+
+.projectHead {
+    text-align: center;
+}
+
+.projectHead > span {
+    font-size: 90px;
+    vertical-align: bottom;
+    text-decoration: overline;
+    font-family: 'Yatra One', cursive;
+}
+
+.projectHead > img {
+    text-align: center;
+    height: 130px;
+    margin-bottom: 15px;
+}
+
+article a:link, article a:visited {
+    color: #0E0E0E;
+}
